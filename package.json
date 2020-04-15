@@ -1,0 +1,21 @@
+{
+  "name": "balaji",
+  "version": "1.0.0",
+  "description": "Hi, here is a simple Helm chart with NodeJS application (Express based). I've created a Docker image for that task and pushed it to my docker.io repo. Multi-stage Dockerfile is also supplied here.",
+  "main": "server.js",
+  "dependencies": {
+    "@rama41222/node-logger": "^1.0.1",
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.3"
+  },
+  "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon server.js"
+  },
+  "author": "Balaji Dama",
+  "license": "ISC"
+}
