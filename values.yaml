@@ -1,7 +1,7 @@
 replicaCount: 3
 
 image:
-  repository: carpathian/node-express
+  repository: balajidama/node-express
   tag: 3.0.0
   pullPolicy: IfNotPresent
 
