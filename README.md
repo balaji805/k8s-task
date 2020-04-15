@@ -1,7 +1,7 @@
 # Balaji Dama task
 
 Here is a simple Helm chart with NodeJS application (Express based).
-I've created a Docker image for that task and pushed it to  docker.io registry repo (carpathian/node-express).
+I've created a Docker image for that task and pushed it to  docker.io registry repo .
 Multi-stage Dockerfile is also supplied here.
 
 ## Usage
